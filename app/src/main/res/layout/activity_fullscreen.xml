@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0099cc"
-    tools:context=".FullscreenActivity">
+    tools:context=".MainActivity">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
@@ -35,10 +35,10 @@
             android:layout_gravity="bottom|center_horizontal"
             android:background="@color/black_overlay"
             android:orientation="horizontal"
-            tools:ignore="UselessParent"/>
+            tools:ignore="UselessParent" />
 
         <TextView
-            android:id="@+id/Welcome to"
+            android:id="@+id/next"
             android:layout_width="199dp"
             android:layout_height="wrap_content"
             android:text="Welcome to" />
